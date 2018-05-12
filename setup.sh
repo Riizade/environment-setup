@@ -11,6 +11,11 @@ sudo apt-get install zsh -y
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 # install powerlevel9k theme
 git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
+cp ./.zshrc ~/.zshrc
+# install powerline fonts
+git clone https://github.com/powerline/fonts.git ~/Downloads/fonts
+cp -a ~/Downloads/fonts/SourceCodePro/. ~/.local/share/fonts/
+fc-cache -vf ~/.local/share/fonts
 
 # install Visual Studio Code
 curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg

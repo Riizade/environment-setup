@@ -16,6 +16,8 @@ cp ./.zshrc ~/.zshrc
 git clone https://github.com/powerline/fonts.git ~/Downloads/fonts
 cp -a ~/Downloads/fonts/SourceCodePro/. ~/.local/share/fonts/
 fc-cache -vf ~/.local/share/fonts
+# configure terminal settings
+dconf load /org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9/ < ./config/riizade.dconf
 
 # install Visual Studio Code
 curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg

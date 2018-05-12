@@ -1,0 +1,8 @@
+[/]
+login-shell=false
+use-theme-colors=false
+use-custom-command=true
+use-system-font=false
+visible-name='riizade'
+custom-command='zsh'
+font='Source Code Pro for Powerline 10'

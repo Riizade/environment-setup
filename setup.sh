@@ -4,7 +4,7 @@ sudo apt-get install curl -y
 sudo apt-get install zsh -y
 
 # install python stuff
-sudo apt-get install python-setuptools python-dev build-essential -y
+sudo apt-get install python-pip python-dev build-essential -y
 sudo pip install --upgrade pip
 sudo pip install --upgrade pipenv
 

@@ -4,6 +4,10 @@ Configures a fresh Ubuntu installation just the way I like it
 
 Preparation Steps
 =====
+- Download or clone this repository to a location of your choosing
+- Open a Terminal
+    - Navigate to this repo's directory
+    - `bash setup.sh`
 
 Additional Steps
 =====
@@ -12,7 +16,7 @@ Additional Steps
     - Install the browser addon that pops up
     - Install Dash to Dock
     - Install Hide Top Bar
-- run `gnome-tweaks`
+- Run `gnome-tweaks`
     - Desktop -> Show Icons -> Off
     - Top Bar -> Application Menu -> Off
     - Top Bar -> Date -> On

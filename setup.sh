@@ -1,6 +1,16 @@
 # install common utilities
 sudo apt-get install git -y
 sudo apt-get install curl -y
+sudo apt-get install zsh -y
+
+# configure git
+  git config --global user.email "riizade@gmail.com"
+  git config --global user.name "Adam James-Liebau Johnson"
+
+# install oh-my-zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+# install powerlevel9k theme
+git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
 
 # install Visual Studio Code
 curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg

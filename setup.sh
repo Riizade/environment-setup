@@ -3,6 +3,11 @@ sudo apt-get install git -y
 sudo apt-get install curl -y
 sudo apt-get install zsh -y
 
+# install python stuff
+sudo apt-get install python-setuptools python-dev build-essential -y
+sudo pip install --upgrade pip
+sudo pip install --upgrade pipenv
+
 # configure git
   git config --global user.email "riizade@gmail.com"
   git config --global user.name "Adam James-Liebau Johnson"

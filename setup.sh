@@ -7,6 +7,10 @@ sudo apt-get install zsh -y
 sudo apt-get install python-pip python-dev build-essential -y
 sudo pip install --upgrade pip
 sudo pip install --upgrade pipenv
+sudo pip install virtualenvwrapper
+sudo add-apt-repository ppa:deadsnakes/ppa
+sudo apt-get update
+curl -sSL https://raw.githubusercontent.com/sdispater/poetry/master/get-poetry.py | python
 
 # configure git
 git config --global user.email "riizade@gmail.com"
@@ -16,7 +20,9 @@ git config --global user.name "Adam James-Liebau Johnson"
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 # install powerlevel9k theme
 git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
-cp ./.zshrc ~/.zshrc
+# configure zsh
+mkdir ~/.zfunc
+cp ./config/.zshrc ~/.zshrc
 # install powerline fonts
 git clone https://github.com/powerline/fonts.git ~/Downloads/fonts
 cp -a ~/Downloads/fonts/SourceCodePro/. ~/.local/share/fonts/

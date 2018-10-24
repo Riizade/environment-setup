@@ -8,7 +8,7 @@ sudo apt-get install python-pip python-dev build-essential -y
 sudo pip install --upgrade pip
 sudo pip install --upgrade pipenv
 sudo pip install virtualenvwrapper
-sudo add-apt-repository ppa:deadsnakes/ppa
+sudo add-apt-repository ppa:deadsnakes/ppa -y
 sudo apt-get update
 curl -sSL https://raw.githubusercontent.com/sdispater/poetry/master/get-poetry.py | python
 

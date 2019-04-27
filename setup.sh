@@ -32,6 +32,8 @@ dconf load /org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d
 
 # install tmux and plugins
 sudo apt-get install tmux -y
+mkdir -p ~/.tmux/plugins
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 cp ./config/.tmux.conf ~/.tmux.conf
 
 # install Visual Studio Code

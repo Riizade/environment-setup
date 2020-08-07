@@ -4,20 +4,17 @@ sudo apt-get install curl -y
 sudo apt-get install zsh -y
 
 # install python stuff
-sudo apt-get install python-pip python-dev build-essential -y
-sudo pip install --upgrade pip
-sudo pip install --upgrade pipenv
-sudo pip install virtualenvwrapper
-sudo add-apt-repository ppa:deadsnakes/ppa -y
-sudo apt-get update
-curl -sSL https://raw.githubusercontent.com/sdispater/poetry/master/get-poetry.py | python
+sudo apt-get install python3-pip python3 build-essential -y
+sudo pip3 install --upgrade pip3
+sudo pip3 install --upgrade pipenv
+sudo pip3 install virtualenvwrapper
 
 # configure git
 git config --global user.email "riizade@gmail.com"
 git config --global user.name "Adam James-Liebau Johnson"
 
 # install oh-my-zsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)" -y
 # install powerlevel9k theme
 git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
 # configure zsh

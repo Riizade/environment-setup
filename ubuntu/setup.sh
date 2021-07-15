@@ -21,6 +21,7 @@ sudo apt-add-repository ppa:fish-shell/release-3 -y
 sudo apt-get update
 sudo apt-get install fish -y
 # configure fish
+mkdir -p ~/.config/fish/
 cp ../config/config.fish ~/.config/fish/config.fish
 
 # install fonts
@@ -42,6 +43,10 @@ sudo mv microsoft.gpg /etc/apt/trusted.gpg.d/microsoft.gpg
 sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main" > /etc/apt/sources.list.d/vscode.list'
 sudo apt-get update
 sudo apt-get install code -y
+
+# configure Visual Studio Code
+mkdir -p ~/.config/Code/User/
+cp ../vscode.settings.json ~/.config/Code/User/settings.json
 
 # install Google Chrome
 sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" > /etc/apt/sources.list.d/google.list'

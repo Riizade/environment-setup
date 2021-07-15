@@ -28,7 +28,7 @@ cp -a ./fonts/. ~/.local/share/fonts
 fc-cache -vf ~/.local/share/fonts
 
 # configure terminal settings
-dconf load /org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9/ < ../config/riizade.dconf
+dconf load /org/gnome/terminal/legacy/profiles:/ < ../config/gnome-terminal-profiles.dconf
 
 # install tmux and plugins
 sudo apt-get install tmux -y

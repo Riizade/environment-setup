@@ -1,0 +1,11 @@
+[:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
+visible-name='riizade'
+login-shell=false
+custom-command='fish'
+default-size-columns=200
+default-size-rows=35
+use-system-font=false
+use-custom-command=true
+use-theme-colors=false
+font='Hasklug Nerd Font Mono Medium 11'
+audible-bell=true

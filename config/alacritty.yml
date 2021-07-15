@@ -56,7 +56,7 @@ window:
 scrolling:
   # maximum number of lines in the scrollback buffer. Specifying '0' will
   # disable scrolling.
-  history: 0
+  history: 100000
 
   # Number of lines the viewport will move for every line scrolled when
   # scrollback is enabled (history > 0).
@@ -66,31 +66,31 @@ scrolling:
 font:
   # The normal (roman) font face to use.
   # Style can be specified to pick a specific face.
-  # normal:
-  #   family: Hasklug Nerd Font Mono
-  #   style: Medium
+  normal:
+    family: Hasklug Nerd Font Mono
+    style: Medium
   #   # family: "Fira Code"
   #   # family: "Source Code Pro"
   #   # style: Retina
 
   # # The bold font face
-  # bold:
-  #   family: Hasklug Nerd Font Mono
-  #   style: Medium
+  bold:
+    family: Hasklug Nerd Font Mono
+    style: Medium
   #   # family: "Fira Code"
   #   # family: "Source Code Pro"
 
   # # The italic font face
-  # italic:
-  #   family: Hasklug Nerd Font Mono
-  #   style: Medium
+  italic:
+    family: Hasklug Nerd Font Mono
+    style: Medium
   #   # style: "Light Oblique"
   #   # family: "Fira Code"
   #   # family: "Source Code Pro"
   #   # style: "Medium Italic"
 
   # Point size of the font
-  size: 14.0
+  size: 11.0
 
   # Offset is the extra space around each character. offset.y can be thought of
   # as modifying the linespacing, and offset.x as modifying the letter spacing.
@@ -323,6 +323,8 @@ background_opacity: 1.0
 key_bindings:
   - { key: V,        mods: Command,       action: Paste                        }
   - { key: C,        mods: Command,       action: Copy                         }
+  - { key: V,        mods: Control,       action: Paste                        }
+  - { key: C,        mods: Control,       action: Copy                         }
   - { key: Q,        mods: Command,       action: Quit                         }
   - { key: N,        mods: Command,       action: SpawnNewInstance             }
   - { key: Return,   mods: Command,       action: ToggleFullscreen             }
@@ -334,6 +336,9 @@ key_bindings:
   - { key: Equals,   mods: Command,       action: IncreaseFontSize             }
   - { key: Minus,    mods: Command,       action: DecreaseFontSize             }
   - { key: Minus,    mods: Command|Shift, action: ResetFontSize                }
+  - { key: Equals,   mods: Control,       action: IncreaseFontSize             }
+  - { key: Minus,    mods: Control,       action: DecreaseFontSize             }
+  - { key: Minus,    mods: Control|Shift, action: ResetFontSize                }
   - { key: PageUp,   mods: Shift,         chars: "\x1b[5;2~"                   }
   - { key: PageUp,   mods: Control,       chars: "\x1b[5;5~"                   }
   - { key: PageUp,                        chars: "\x1b[5~"                     }

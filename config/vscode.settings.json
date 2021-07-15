@@ -14,8 +14,8 @@
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "editor.fontFamily": "'Hasklug Nerd Font Mono Medium', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "editor.fontFamily": "'Hasklug Nerd Font Mono', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
     "editor.fontLigatures": true,
     "terminal.integrated.shell.linux": "/usr/bin/fish",
-    "terminal.integrated.fontFamily": "'Hasklug Nerd Font Mono Medium', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'"
+    "terminal.integrated.fontFamily": "'Hasklug Nerd Font Mono', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'"
 }

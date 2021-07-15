@@ -25,7 +25,7 @@ mkdir -p ~/.config/fish/
 cp ../config/config.fish ~/.config/fish/config.fish
 
 # install fonts
-cp -a ./fonts/. ~/.local/share/fonts
+cp -a ../fonts/. ~/.local/share/fonts
 fc-cache -vf ~/.local/share/fonts
 
 # configure terminal settings
@@ -46,7 +46,7 @@ sudo apt-get install code -y
 
 # configure Visual Studio Code
 mkdir -p ~/.config/Code/User/
-cp ../vscode.settings.json ~/.config/Code/User/settings.json
+cp ../config/vscode.settings.json ~/.config/Code/User/settings.json
 
 # install Google Chrome
 sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" > /etc/apt/sources.list.d/google.list'

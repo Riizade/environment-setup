@@ -24,6 +24,16 @@ sudo apt-get install fish -y
 mkdir -p ~/.config/fish/
 cp ../config/config.fish ~/.config/fish/config.fish
 
+# set fish as default shell
+sudo sh -c 'echo /usr/local/bin/fish >> /etc/shells'
+
+# install alacritty terminal emulator
+sudo snap install alacritty --classic
+
+# configure alacritty
+mkdir -p ~/.config/alacritty
+cp ../config/alacritty.yml ~/.config/alacritty/alacritty.yml
+
 # install fonts
 cp -a ../fonts/. ~/.local/share/fonts
 fc-cache -vf ~/.local/share/fonts

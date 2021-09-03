@@ -8,7 +8,5 @@ Navigate to the directory matching the operating system you want to configure, a
 
 ## To-Do
 
-- Choose a canonical prompt and customize (https://starship.rs/ looks promising)
 - Put together recommended VSCode extensions
-  - Create user config for VSCode
-- Choose fonts
+- Specify font once and automatically propagate to relevant config locations

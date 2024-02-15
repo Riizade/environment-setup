@@ -1,7 +1,7 @@
 {
   "editor.suggestSelection": "first",
   "editor.autoClosingQuotes": "never",
-  "editor.autoClosingBrackets": "never",
+  "editor.autoClosingBrackets": "beforeWhitespace",
   "editor.autoClosingDelete": "never",
   "editor.autoSurround": "never",
   "[python]": {

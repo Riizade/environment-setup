@@ -14,14 +14,25 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true
   },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
   "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
   },
   "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
   },
-  "editor.fontFamily": "'Hasklug Nerd Font Mono', 'Iosevka', 'Fira Code Nerd Font Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer",
+    "editor.formatOnSave": true
+  },
+  "editor.fontFamily": "'Monoid Nerd Font', 'Iosevka', 'Fira Code Nerd Font Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+  "editor.fontSize": 14,
   "editor.fontLigatures": true,
   "terminal.integrated.shell.linux": "/usr/bin/fish",
-  "terminal.integrated.fontFamily": "'Hasklug Nerd Font Mono', 'Iosevka', 'Fira Code Nerd Font Mono', 'monospace', monospace, 'Droid Sans Fallback'"
+  "terminal.integrated.fontFamily": "'Monoid Nerd Font', 'Iosevka', 'Fira Code Nerd Font Mono', 'monospace', monospace, 'Droid Sans Fallback'"
 }

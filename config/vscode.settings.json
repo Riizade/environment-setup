@@ -5,7 +5,7 @@
   "editor.autoClosingDelete": "never",
   "editor.autoSurround": "never",
   "[python]": {
-    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.defaultFormatter": "charliermarsh.ruff",
     "editor.formatOnSave": true
   },
   "[html]": {

@@ -32,9 +32,10 @@ sudo snap install alacritty --classic
 
 # configure alacritty
 mkdir -p ~/.config/alacritty
-cp ../config/alacritty.yml ~/.config/alacritty/alacritty.yml
+cp ../config/alacritty.toml ~/.config/alacritty/alacritty.toml
 
 # install fonts
+mkdir -p ~/.local/share/fonts
 cp -a ../fonts/. ~/.local/share/fonts
 fc-cache -vf ~/.local/share/fonts
 

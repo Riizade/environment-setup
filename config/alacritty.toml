@@ -1,11 +1,10 @@
 [terminal]
 [terminal.shell]
 program               = "/usr/bin/fish"
-
+args                  = ["-c", "zellij attach main"]
 
 [scrolling]
 history               = 65535
-
 
 [font]
 normal                = { family = "Hasklug Nerd Font Mono", style = "Regular" }

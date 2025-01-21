@@ -1,3 +1,6 @@
+# get parent directory of this script
+SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+
 # install common utilities
 sudo apt-get install git -y
 sudo apt-get install curl -y

@@ -32,9 +32,9 @@
     "editor.defaultFormatter": "rust-lang.rust-analyzer",
     "editor.formatOnSave": true
   },
-  "editor.fontFamily": "'FairfaxHaxHD Nerd Font', 'Iosevka', 'Fira Code Nerd Font Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+  "editor.fontFamily": "'Hasklug Nerd Font Mono', 'monospace', monospace, 'Droid Sans Fallback'",
   "editor.fontSize": 16,
   "editor.fontLigatures": true,
   "terminal.integrated.shell.linux": "/usr/bin/fish",
-  "terminal.integrated.fontFamily": "'FairfaxHaxHD Nerd Font', 'Iosevka', 'Fira Code Nerd Font Mono', 'monospace', monospace, 'Droid Sans Fallback'"
+  "terminal.integrated.fontFamily": "'Hasklug Nerd Font Mono', 'monospace', monospace, 'Droid Sans Fallback'"
 }

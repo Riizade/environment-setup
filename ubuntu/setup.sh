@@ -66,6 +66,12 @@ sudo apt-get install chrome-gnome-shell -y
 echo "installing gnome-tweaks..."
 sudo apt-get install gnome-tweaks -y
 
+# install fonts
+echo "updating fonts..."
+mkdir -p ~/.local/share/fonts
+cp -a $SCRIPT_DIR/../fonts/. ~/.local/share/fonts
+fc-cache -vf ~/.local/share/fonts
+
 # install syncthing
 echo "installing syncthing..."
 bash $SCRIPT_DIR/install-syncthing.sh

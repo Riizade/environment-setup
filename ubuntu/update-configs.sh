@@ -25,9 +25,3 @@ cp $SCRIPT_DIR/../config/zellij-config.kdl ~/.config/zellij/config.kdl
 echo "updating Visual Studio Code..."
 mkdir -p ~/.config/Code/User/
 cp $SCRIPT_DIR/../config/vscode.settings.json ~/.config/Code/User/settings.json
-
-# install fonts
-echo "updating fonts..."
-mkdir -p ~/.local/share/fonts
-cp -a $SCRIPT_DIR/../fonts/. ~/.local/share/fonts
-fc-cache -vf ~/.local/share/fonts

@@ -16,7 +16,7 @@ sudo apt-get install curl -y
 
 # install zellij
 echo "installing zellij..."
-sudo snap install zellij
+sudo snap install zellij --classic
 
 # install alacritty terminal emulator
 echo "installing alacritty..."

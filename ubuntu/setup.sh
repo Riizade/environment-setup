@@ -50,5 +50,8 @@ sudo apt-get install chrome-gnome-shell -y
 # install visual modifications
 sudo apt-get install gnome-tweaks -y
 
+# install syncthing
+bash $SCRIPT_DIR/install-syncthing.sh
+
 # update configurations
 bash $SCRIPT_DIR/update-configs.sh

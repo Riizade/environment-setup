@@ -1,7 +1,7 @@
 [terminal]
 [terminal.shell]
 program               = "/usr/bin/fish"
-args                  = ["-c", "zellij attach main"]
+args                  = ["-c", "zellij attach --create main"]
 
 [scrolling]
 history               = 65535

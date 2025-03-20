@@ -4,6 +4,11 @@
   "editor.autoClosingBrackets": "beforeWhitespace",
   "editor.autoClosingDelete": "never",
   "editor.autoSurround": "never",
+  "go.useLanguageServer": true,
+  "go.liveErrors": {
+    "enabled": true,
+    "delay": 500
+  },
   "[python]": {
     "editor.defaultFormatter": "charliermarsh.ruff",
     "editor.formatOnSave": true
@@ -32,9 +37,19 @@
     "editor.defaultFormatter": "rust-lang.rust-analyzer",
     "editor.formatOnSave": true
   },
+  "[lua]": {
+    "editor.defaultFormatter": "sumneko.lua",
+    "editor.tabSize": 4,
+    "editor.formatOnSave": true
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
   "editor.fontFamily": "'Hasklug Nerd Font Mono', 'monospace', monospace, 'Droid Sans Fallback'",
   "editor.fontSize": 16,
   "editor.fontLigatures": true,
   "terminal.integrated.shell.linux": "/usr/bin/fish",
-  "terminal.integrated.fontFamily": "'Hasklug Nerd Font Mono', 'monospace', monospace, 'Droid Sans Fallback'"
+  "terminal.integrated.fontFamily": "'Hasklug Nerd Font Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+  "editor.accessibilitySupport": "off"
 }

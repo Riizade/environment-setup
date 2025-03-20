@@ -12,3 +12,5 @@ execute the script `setup.sh`
 - Navigate to [this Ninite URL](https://ninite.com/7zip-chrome-discord-everything-firefox-gimp-googlebackupandsync-launchy-libreoffice-python3-pythonx3-revo-spotify-steam-sumatrapdf-teracopy-vlc-vscode-windirstat/) and install the apps
 - Move vscode config to C:/Users/{user}/AppData/Roaming/Code/User/settings.json
 - install fonts
+- install AutoHotkey V2
+- download ahk macros repo and install libs to the `AutoHotkey/v2/lib/` directory

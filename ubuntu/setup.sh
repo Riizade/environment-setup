@@ -1,5 +1,5 @@
-# exit on error
-set -e
+# exit on error + print each command
+set -ex
 # get parent directory of this script
 SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 
@@ -26,7 +26,7 @@ sudo snap install alacritty --classic
 
 # install Starship
 echo "installing starship..."
-sudo snap install starship
+curl -sS https://starship.rs/install.sh | sh
 
 # install fish
 echo "installing fish shell..."
@@ -39,9 +39,7 @@ sudo sh -c 'echo /usr/local/bin/fish >> /etc/shells'
 # install python stuff
 echo "installing python3..."
 sudo apt-get install python3-pip python3 build-essential -y
-sudo pip3 install --upgrade pip3
-sudo pip3 install --upgrade pipenv
-sudo pip3 install virtualenvwrapper
+curl -LsSf https://astral.sh/uv/install.sh | sh
 
 # configure terminal settings
 dconf load /org/gnome/terminal/legacy/profiles:/ < ../config/gnome-terminal-profiles.dconf

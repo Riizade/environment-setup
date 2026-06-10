@@ -1,3 +1,5 @@
+set -exuo pipefail
+
 # get parent directory of this script
 SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 
